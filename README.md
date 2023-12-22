@@ -11,6 +11,10 @@
 
 ![Contributors](https://img.shields.io/github/contributors/Uptime-Lab/KVM-rack-stand-for-16-Mac-minis?color=dark-green) ![Forks](https://img.shields.io/github/forks/Uptime-Lab/KVM-rack-stand-for-16-Mac-minis?style=social) ![Stargazers](https://img.shields.io/github/stars/Uptime-Lab/KVM-rack-stand-for-16-Mac-minis?style=social) ![Issues](https://img.shields.io/github/issues/Uptime-Lab/KVM-rack-stand-for-16-Mac-minis) ![License](https://img.shields.io/github/license/Uptime-Lab/KVM-rack-stand-for-16-Mac-minis) 
 
+## Official Discord server
+
+Join the [link](https://discord.gg/2MZjPUU59P) to our cozy (Discord server)(https://discord.gg/2MZjPUU59P), where you can ask any questions about the project and not only. Also look forward to seeing you on [Twitter (X)](https://twitter.com/Merocle) and [Instagram](https://www.instagram.com/uptime.lab/)
+
 ## About The Project
 
 ![KVMac16](images/KVMac16.jpg)
