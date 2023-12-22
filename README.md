@@ -13,7 +13,7 @@
 
 ## Official Discord server
 
-Join the [link](https://discord.gg/2MZjPUU59P) to our cozy (Discord server)(https://discord.gg/2MZjPUU59P), where you can ask any questions about the project and not only. Also look forward to seeing you on [Twitter (X)](https://twitter.com/Merocle) and [Instagram](https://www.instagram.com/uptime.lab/)
+Join the [link](https://discord.gg/2MZjPUU59P) to our cozy [Discord server](https://discord.gg/2MZjPUU59P), where you can ask any questions about the project and not only. And look forward to seeing you on [Twitter (X)](https://twitter.com/Merocle) and [Instagram](https://www.instagram.com/uptime.lab/)
 
 ## About The Project
 
