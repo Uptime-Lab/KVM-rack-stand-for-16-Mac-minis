@@ -18,6 +18,7 @@
 **The main task is to give full control over a group of Mac mini installed in a remote data center.**\
 
 You can read more about the project on the official website at the [link (KVM rack stand for Mac minis, KVMac16)](https://uplab.pro/2023/11/kvm-rack-stand-for-mac-minis-kvmac16/)
+
 And about how to assemble such a stand read in the second part of the article at the [link  (KVM rack stand for Mac minis, KVMac16, part 2)](https://uplab.pro/2023/12/kvm-rack-stand-for-mac-minis-kvmac16-part-2/)
 
 
