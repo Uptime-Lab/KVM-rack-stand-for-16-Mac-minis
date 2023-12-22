@@ -1,0 +1,436 @@
+kvmd:
+    atx:
+        type: disabled
+    gpio:
+        drivers:
+            servo01_short:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 1, 0.5]
+            servo02_short:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 2, 0.5] 
+            servo03_short:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 3, 0.5]
+            servo04_short:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 4, 0.5]    
+            servo05_short:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 5, 0.5] 
+            servo06_short:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 6, 0.5] 
+            servo07_short:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 7, 0.5] 
+            servo08_short:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 8, 0.5] 
+            servo09_short:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 9, 0.5] 
+            servo10_short:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 8, 0.5] 
+            servo11_short:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 11, 0.5] 
+            servo12_short:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 12, 0.5] 
+            servo13_short:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 13, 0.5] 
+            servo14_short:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 14, 0.5] 
+            servo15_short:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 15, 0.5] 
+            servo16_short:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 16, 0.5]                 
+            servo01_long:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 1, 8]
+            servo02_long:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 2, 8] 
+            servo03_long:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 3, 8]
+            servo04_long:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 4, 8]    
+            servo05_long:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 5, 8] 
+            servo06_long:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 6, 8] 
+            servo07_long:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 7, 8] 
+            servo08_long:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 8, 8] 
+            servo09_long:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 9, 8] 
+            servo10_long:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 8, 8] 
+            servo11_long:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 11, 8] 
+            servo12_long:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 12, 8] 
+            servo13_long:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 13, 8] 
+            servo14_long:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 14, 8] 
+            servo15_long:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 15, 8] 
+            servo16_long:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo.py, 16, 8]                           
+            servo_all:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo_all.py, 0.5]
+            servo_all_long:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/servo_all.py, 8]
+            kvmport01:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/kvmctl.sh, set, 1]    
+            kvmport02:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/kvmctl.sh, set, 2] 
+            kvmport03:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/kvmctl.sh, set, 3]  
+            kvmport04:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/kvmctl.sh, set, 4]   
+            kvmport05:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/kvmctl.sh, set, 5]   
+            kvmport06:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/kvmctl.sh, set, 6] 
+            kvmport07:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/kvmctl.sh, set, 7] 
+            kvmport08:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/kvmctl.sh, set, 8] 
+            kvmport09:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/kvmctl.sh, set, 9] 
+            kvmport10:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/kvmctl.sh, set, 10]   
+            kvmport11:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/kvmctl.sh, set, 11]   
+            kvmport12:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/kvmctl.sh, set, 12]   
+            kvmport13:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/kvmctl.sh, set, 13]   
+            kvmport14:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/kvmctl.sh, set, 14]   
+            kvmport15:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/kvmctl.sh, set, 15]   
+            kvmport16:
+                type: cmd
+                cmd: [/usr/bin/sudo, /root/kvmctl.sh, set, 16]                   
+        scheme:
+            servo01_short:
+                driver: servo01_short
+                pin: 0
+                mode: output
+                switch: false
+            servo02_short:
+                driver: servo02_short
+                pin: 0
+                mode: output
+                switch: false    
+            servo03_short:
+                driver: servo03_short
+                pin: 0
+                mode: output
+                switch: false    
+            servo04_short:
+                driver: servo04_short
+                pin: 0
+                mode: output
+                switch: false        
+            servo05_short:
+                driver: servo05_short
+                pin: 0
+                mode: output
+                switch: false  
+            servo06_short:
+                driver: servo06_short
+                pin: 0
+                mode: output
+                switch: false  
+            servo07_short:
+                driver: servo07_short
+                pin: 0
+                mode: output
+                switch: false  
+            servo08_short:
+                driver: servo08_short
+                pin: 0
+                mode: output
+                switch: false  
+            servo09_short:
+                driver: servo09_short
+                pin: 0
+                mode: output
+                switch: false  
+            servo10_short:
+                driver: servo10_short
+                pin: 0
+                mode: output
+                switch: false  
+            servo11_short:
+                driver: servo11_short
+                pin: 0
+                mode: output
+                switch: false  
+            servo12_short:
+                driver: servo12_short
+                pin: 0
+                mode: output
+                switch: false  
+            servo13_short:
+                driver: servo13_short
+                pin: 0
+                mode: output
+                switch: false  
+            servo14_short:
+                driver: servo14_short
+                pin: 0
+                mode: output
+                switch: false  
+            servo15_short:
+                driver: servo15_short
+                pin: 0
+                mode: output
+                switch: false  
+            servo16_short:
+                driver: servo16_short
+                pin: 0
+                mode: output
+                switch: false  
+            servo01_long:
+                driver: servo01_long
+                pin: 0
+                mode: output
+                switch: false
+            servo02_long:
+                driver: servo02_long
+                pin: 0
+                mode: output
+                switch: false    
+            servo03_long:
+                driver: servo03_long
+                pin: 0
+                mode: output
+                switch: false    
+            servo04_long:
+                driver: servo04_long
+                pin: 0
+                mode: output
+                switch: false        
+            servo05_long:
+                driver: servo05_long
+                pin: 0
+                mode: output
+                switch: false  
+            servo06_long:
+                driver: servo06_long
+                pin: 0
+                mode: output
+                switch: false  
+            servo07_long:
+                driver: servo07_long
+                pin: 0
+                mode: output
+                switch: false  
+            servo08_long:
+                driver: servo08_long
+                pin: 0
+                mode: output
+                switch: false  
+            servo09_long:
+                driver: servo09_long
+                pin: 0
+                mode: output
+                switch: false  
+            servo10_long:
+                driver: servo10_long
+                pin: 0
+                mode: output
+                switch: false  
+            servo11_long:
+                driver: servo11_long
+                pin: 0
+                mode: output
+                switch: false  
+            servo12_long:
+                driver: servo12_long
+                pin: 0
+                mode: output
+                switch: false  
+            servo13_long:
+                driver: servo13_long
+                pin: 0
+                mode: output
+                switch: false  
+            servo14_long:
+                driver: servo14_long
+                pin: 0
+                mode: output
+                switch: false  
+            servo15_long:
+                driver: servo15_long
+                pin: 0
+                mode: output
+                switch: false  
+            servo16_long:
+                driver: servo16_long
+                pin: 0
+                mode: output
+                switch: false                          
+            servo_all:
+                driver: servo_all
+                pin: 0
+                mode: output
+                switch: false
+            servo_all_long:
+                driver: servo_all_long
+                pin: 0
+                mode: output
+                switch: false
+            kvmport01:
+                driver: kvmport01
+                pin: 0
+                mode: output
+                switch: false
+            kvmport02:
+                driver: kvmport02
+                pin: 0
+                mode: output
+                switch: false
+            kvmport03:
+                driver: kvmport03
+                pin: 0
+                mode: output
+                switch: false                
+            kvmport04:
+                driver: kvmport04
+                pin: 0
+                mode: output
+                switch: false   
+            kvmport05:
+                driver: kvmport05
+                pin: 0
+                mode: output
+                switch: false
+            kvmport06:
+                driver: kvmport06
+                pin: 0
+                mode: output
+                switch: false
+            kvmport07:
+                driver: kvmport07
+                pin: 0
+                mode: output
+                switch: false
+            kvmport08:
+                driver: kvmport08
+                pin: 0
+                mode: output
+                switch: false
+            kvmport09:
+                driver: kvmport09
+                pin: 0
+                mode: output
+                switch: false
+            kvmport10:
+                driver: kvmport10
+                pin: 0
+                mode: output
+                switch: false
+            kvmport11:
+                driver: kvmport11
+                pin: 0
+                mode: output
+                switch: false
+            kvmport12:
+                driver: kvmport12
+                pin: 0
+                mode: output
+                switch: false
+            kvmport13:
+                driver: kvmport13
+                pin: 0
+                mode: output
+                switch: false      
+            kvmport14:
+                driver: kvmport14
+                pin: 0
+                mode: output
+                switch: false
+            kvmport15:
+                driver: kvmport15
+                pin: 0
+                mode: output
+                switch: false
+            kvmport16:
+                driver: kvmport16
+                pin: 0
+                mode: output
+                switch: false                
+        view:
+            header:
+                title: Switches
+            table:
+                - ["#KVM ports"]
+                - ["kvmport01|Mac-01", "kvmport02|Mac-02", "kvmport03|Mac-03", "kvmport04|Mac-04"]
+                - ["kvmport05|Mac-05", "kvmport06|Mac-06", "kvmport07|Mac-07", "kvmport08|Mac-08"]
+                - []
+                - ["kvmport09|Mac-09", "kvmport10|Mac-10", "kvmport11|Mac-11", "kvmport12|Mac-12"]
+                - ["kvmport13|Mac-13", "kvmport14|Mac-14", "kvmport15|Mac-15", "kvmport16|Mac-16"]
+                - []
+                - ["#Power buttons:"]
+                - ["#Short clicks"]
+                - []
+                - ["servo01_short|Mac-01", "servo02_short|Mac-02", "servo03_short|Mac-03", "servo04_short|Mac-04"] 
+                - ["servo05_short|Mac-05", "servo06_short|Mac-06", "servo07_short|Mac-07", "servo08_short|Mac-08"] 
+                - ["servo09_short|Mac-09", "servo10_short|Mac-10", "servo11_short|Mac-11", "servo12_short|Mac-12"] 
+                - ["servo13_short|Mac-13", "servo14_short|Mac-14", "servo15_short|Mac-15", "servo16_short|Mac-16"]      
+                - []                
+                - ["#Danger, long clicks (8 sec)"]
+                - []
+                - ["servo01_long|Mac-01", "servo02_long|Mac-02", "servo03_long|Mac-03", "servo04_long|Mac-04"] 
+                - ["servo05_long|Mac-05", "servo06_long|Mac-06", "servo07_long|Mac-07", "servo08_long|Mac-08"] 
+                - ["servo09_long|Mac-09", "servo10_long|Mac-10", "servo11_long|Mac-11", "servo12_long|Mac-12"] 
+                - ["servo13_long|Mac-13", "servo14_long|Mac-14", "servo15_long|Mac-15", "servo16_long|Mac-16"] 
+                - []                
+                - ["#Super-duper danger, all Mac minis click"]     
+                - []                
+                - ["#All Mac minis:", "servo_all|Short Click"]
+                - ["#All Mac minis:", "servo_all_long|Long Click"]

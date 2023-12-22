@@ -1,0 +1,3 @@
+kvmd ALL=(ALL) NOPASSWD: /root/kvmctl.sh
+kvmd ALL=(ALL) NOPASSWD: /root/servo.py
+kvmd ALL=(ALL) NOPASSWD: /root/servo_all.py
