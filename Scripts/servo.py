@@ -25,6 +25,11 @@ else:
 print("Port: ", port, " ; Angle: ", angle)
 kit.servo[port].angle = angle + adj
 time.sleep(delay)
+kit.servo[port].angle = zero_angle + adj - 8 #Dirty hack to get a stable servo position
+time.sleep(0.3)
+kit.servo[port].angle = zero_angle + adj + 8 #Dirty hack to get a stable servo position
+time.sleep(0.3)
 kit.servo[port].angle = zero_angle + adj
-time.sleep(1)
+time.sleep(0.3)
 kit.servo[port].angle = None
+
